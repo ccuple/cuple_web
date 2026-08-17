@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CUPLE - зв’язок на відстані</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f9; padding: 50px; }
-        .container { max-width: 500px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
-        p { color: #666; font-size: 16px; }
-        .btn-download { display: inline-block; background-color: #24292e; color: white; padding: 15px 30px; font-size: 18px; font-weight: bold; text-decoration: none; border-radius: 5px; margin-top: 20px; transition: background 0.3s; }
-        .btn-download:hover { background-color: #2ea44f; }
-    </style>
+    <title>CUPLE — Зв'язок на відстані</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>CUPLE</h1>
-    <p>Натисніть кнопку нижче, щоб завантажити офіційний інсталяційний файл програми для Android.</p>
-    
-    <!-- Вставте ваше посилання на APK у атрибут href -->
-    <a href="https://github.com/ccuple/cuple/releases/download/v1.0.0/Cuple_v1.0.0.apk" class="btn-download" download>Завантажити Cuple_v1.0.0.apk</a>
-</div>
+    <!-- Головний блок із завантаженням додатка -->
+    <div class="container hero-container">
+        <h1>CUPLE</h1>
+        <p>Натисніть кнопку нижче, щоб завантажити офіційний інсталяційний файл програми для Android та керувати вашим
+            нічником.</p>
+        <a href="https://github.com/ccuple/cuple/releases/download/v1.0.0/Cuple_v1.0.0.apk" class="btn-download"
+            download>Завантажити Cuple_v1.0.0.apk</a>
+        <div class="version-info">Версія: 1.0.0 (Android)</div>
+    </div>
+
+    <!-- Новий блок: Галерея функцій та скріншотів -->
+    <h2 class="features-title">Як працює додаток</h2>
+
+    <div class="container screenshots-grid">
+
+        <div class="screenshot-card">
+            <img src="styles/images/overview.jpg" alt="Огляд пристрою">
+            <h3>Огляд пристрою</h3>
+            <p>Ви можете слідкувати за онлайн статусом вашої підставки та підставки вашого партнера. Можна дати ім’я
+                підставці партнера.</p>
+        </div>
+
+
+        <div class="screenshot-card">
+            <img src="styles/images/cup_indication.jpg" alt="Індикація чашки">
+            <h3>Статус чашок</h3>
+            <p>Візуальне відображення наявності Вашої чашки(верхня індикація) та чашки партнера(нижня індикація). Колір
+                залежить від температури чашки.</p>
+        </div>
+
+        <div class="screenshot-card">
+            <img src="styles/images/color_indication.jpg" alt="Вибір режимів">
+            <h3>Режими індикації</h3>
+            <p>Віртуальна підставка може працювати як НІЧНИК: вибирайте режим на свій смак!</p>
+        </div>
+
+        <div class="screenshot-card">
+            <img src="styles/images/colorpicker.jpg" alt="Вибір кольору">
+            <h3>Кастомізація підсвітки</h3>
+            <p>Зручна палітра для вибору будь-якого відтінку. Просто натисніть на кнопку режиму ще раз.</p>
+        </div>
+
+
+        <div class="screenshot-card">
+            <img src="styles/images/rainbow.jpg" alt="Ефект Веселка">
+            <h3>Динамічні анімації</h3>
+            <p>Режими "Космос", "СтробосКоп" та "Веселка" також Вам сподобаються.</p>
+        </div>
+
+
+        <div class="screenshot-card">
+            <img src="styles/images/details.jpg" alt="Детальна інформація">
+            <h3>Деталі підставок</h3>
+            <p>Перегляд точної інформаціїпро ваші підставки. Просто затисніть логотип <b>CUPLE</b></p>
+        </div>
+    </div>
 
 </body>
+
 </html>
