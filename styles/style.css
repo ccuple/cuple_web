@@ -1,31 +1,3 @@
-/* Для планшетів та великих смартфонів (ширина екрана до 768px) — СУВОРО 2 КАРТКИ В РЯД */
-@media (max-width: 768px) {
-    .screenshots-grid {
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 15px; /* Трохи менший відступ, щоб помістилися */
-        padding: 20px 10px;
-    }
-    
-    .screenshot-card {
-        padding: 15px; /* Зменшуємо внутрішні відступи карток */
-    }
-
-    .screenshot-card img {
-        max-width: 100%; /* Картинка адаптується під ширину картки */
-    }
-}
-
-/* Для звичайних смартфонів (ширина екрана до 480px) — СУВОРО 1 КАРТКА В РЯД */
-@media (max-width: 480px) {
-    .screenshots-grid {
-        grid-template-columns: 1fr; 
-        gap: 20px;
-    }
-    
-    .hero-container {
-        padding: 30px 20px; /* Зменшуємо головний контейнер на телефонах */
-    }
-}
 /* Базові стилі сторінки */
 body { 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
@@ -161,4 +133,32 @@ p {
 }
 .screenshot-card p b{
     color: #FF8C00;
+}
+/* Для планшетів та великих смартфонів (ширина екрана до 768px) — СУВОРО 2 КАРТКИ В РЯД */
+@media (max-width: 768px) {
+    .screenshots-grid {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px; /* Трохи менший відступ, щоб помістилися */
+        padding: 20px 10px;
+    }
+    
+    .screenshot-card {
+        padding: 15px; /* Зменшуємо внутрішні відступи карток */
+    }
+
+    .screenshot-card img {
+        max-width: 100%; /* Картинка адаптується під ширину картки */
+    }
+}
+
+/* Для звичайних смартфонів (ширина екрана до 480px) — СУВОРО 1 КАРТКА В РЯД */
+@media (max-width: 480px) {
+    .screenshots-grid {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+    
+    .hero-container {
+        padding: 30px 20px; /* Зменшуємо головний контейнер на телефонах */
+    }
 }
