@@ -25,7 +25,7 @@ body {
     max-width: 450px; 
     padding: 40px 30px; 
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 h1 { 
@@ -75,7 +75,7 @@ p {
 .features-title {
     font-size: 24px;
     color: #FF8C00;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
